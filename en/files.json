@@ -1,0 +1,12 @@
+{
+  "binaryNotSupported": "Binary files are not supported in the editor",
+  "fileSaved": "File saved",
+  "newFolderTitle": "New folder",
+  "notConnected": "Connect to a server to browse files",
+  "outsideConfigDirs": "⚠ outside typical config directories",
+  "parentDirTitle": "Parent directory",
+  "renameTitle": "Rename",
+  "selectFile": "Select a file to edit",
+  "toggleBrowserTitle": "Toggle file browser",
+  "uploadFileTitle": "Upload file"
+}

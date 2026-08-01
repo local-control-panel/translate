@@ -1,0 +1,11 @@
+{
+  "checkCount": "Running 12 checks…",
+  "copyRemedy": "Copy remedy",
+  "heading": "Health Checks",
+  "notConnected": "Connect to the server to run health checks.",
+  "rerun": "Re-run checks",
+  "statusFail": "fail",
+  "statusOk": "ok",
+  "statusSkip": "skip",
+  "statusWarn": "warn"
+}

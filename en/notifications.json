@@ -1,0 +1,13 @@
+{
+  "addChannelLink": "Add channels in Settings → Notification Channels",
+  "channelHeader": "Channel",
+  "eventBkpFail": "bkp ✗",
+  "eventBkpSuccess": "bkp ✓",
+  "eventCpu": "CPU",
+  "eventCrash": "Crash",
+  "eventDisk": "Disk",
+  "eventRam": "RAM",
+  "eventSsl": "SSL",
+  "eventVuln": "Vuln",
+  "noChannels": "No notification channels configured."
+}

@@ -1,0 +1,21 @@
+{
+  "addJobBtn": "Add Job",
+  "addJobToggle": "+ Add Job",
+  "command": "Command",
+  "comment": "Comment",
+  "executionHistory": "Execution history",
+  "failedLogs": "Failed to read system logs.",
+  "heading": "Cron Jobs",
+  "noJobs": "No cron jobs found.",
+  "noRecentRuns": "No recent runs found in system logs.",
+  "noRecentRunsNote": "(journalctl / syslog may not have entries for this command)",
+  "notConnected": "Connect to the server to manage cron jobs.",
+  "presetDailyAt2am": "Daily at 2am",
+  "presetEvery15min": "Every 15 min",
+  "presetEvery5min": "Every 5 min",
+  "presetEveryHour": "Every hour",
+  "presetEveryMinute": "Every minute",
+  "presetMonthly1st": "Monthly 1st",
+  "presetWeeklySunday": "Weekly Sunday",
+  "readingLogs": "Reading system logs…"
+}

@@ -1,0 +1,23 @@
+{
+  "addBtn": "Add",
+  "addIpLabel": "Add IP / CIDR",
+  "allowOnly": "Allow only these",
+  "alreadyInList": "Already in the list",
+  "blockThese": "Block these",
+  "headersHeading": "HTTP Security Headers",
+  "headersInfoNote": "Headers are added to the Caddyfile and applied after save. Changes require no downtime.",
+  "hsts": "HSTS",
+  "hstsDesc": "Forces browsers to use HTTPS for 1 year. Only enable on sites with valid SSL.",
+  "ipAclDesc": "\"Allow only these\" blocks everyone else with a 403. \"Block these\" lets everyone else through.",
+  "ipAclHeading": "IP Allowlist / Denylist",
+  "modeLabel": "Mode",
+  "noIps": "No IPs configured. Add one below.",
+  "off": "Off",
+  "referrerPolicy": "Referrer-Policy",
+  "referrerPolicyDesc": "Sends the full URL as referrer for same-origin requests; only the origin for cross-origin.",
+  "validationError": "Enter a valid IP address or CIDR (e.g. 203.0.113.4 or 10.0.0.0/8)",
+  "xContentTypeOptions": "X-Content-Type-Options",
+  "xContentTypeOptionsDesc": "Stops browsers from MIME-sniffing responses away from the declared content-type.",
+  "xFrameOptions": "X-Frame-Options",
+  "xFrameOptionsDesc": "Prevents your site from being embedded in iframes on other origins (clickjacking protection)."
+}

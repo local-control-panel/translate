@@ -1,0 +1,23 @@
+{
+  "cpuLoad": "CPU Load",
+  "cpuUsageChart": "CPU Usage",
+  "diskSpace": "Disk Space",
+  "liveMetrics": "Live Metrics",
+  "loading": "Loading metrics…",
+  "memory": "Memory",
+  "netChart": "Network",
+  "netdataNotAvailable": "Netdata is not running on this server. Install it with:",
+  "netdataDiskNote": "Disk stats are still available below (via SSH).",
+  "networkRx": "Network RX",
+  "networkTx": "Network TX",
+  "notConnected": "Connect to the server to view monitoring data.",
+  "ramChart": "RAM",
+  "rangeLabel1h": "1 hour",
+  "rangeLabel6h": "6 hours",
+  "rangeLabelLive": "Live",
+  "rangeLabelLabel24h": "24 hours",
+  "reloadHistory": "Reload history",
+  "refreshNow": "Refresh now",
+  "systemLoad": "System Load",
+  "systemLoadChart": "System Load"
+}

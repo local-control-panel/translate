@@ -1,0 +1,8 @@
+{
+  "language": "Language",
+  "languageHint": "Choose the UI display language",
+  "theme": "Theme",
+  "themeHint": "Switch between light and dark appearance",
+  "themeDark": "Dark",
+  "themeLight": "Light"
+}
