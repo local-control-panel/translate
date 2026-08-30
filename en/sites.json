@@ -39,8 +39,6 @@
   "noSitesBefore": "No sites configured yet. Make sure FrankenPHP is installed and",
   "noSitesPath": "/etc/frankenphp/Caddyfile.d/",
   "pageTitle": "Sites",
-  "phpVersionSwitchHint": "Switching PHP version will re-provision the site Caddyfile and reload FrankenPHP.",
-  "rawEditDisabledHint": "Raw Caddyfile editing is disabled while changing PHP version.",
   "reactivateBtn": "🔧 Reactivate",
   "reactivateTitle": "Reactivate site",
   "reloadBtn": "Reload FrankenPHP",
