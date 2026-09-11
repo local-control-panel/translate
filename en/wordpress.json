@@ -155,7 +155,7 @@
   "toolsMsgUrlInvalidChars": "URL must not contain backticks, $ or backslashes.",
   "toolsMsgDone": "Done.",
   "toolsHeadingSmtp": "SMTP Relay",
-  "toolsSmtpDesc": "Requires the WP Mail SMTP plugin to be installed and active on this site - writes its wp-config.php constants (WPMS_*) so outbound mail uses this relay.",
+  "toolsSmtpDesc": "Installs and activates WP Mail SMTP, then writes its wp-config.php constants (WPMS_*) so outbound mail uses this relay.",
   "toolsSmtpHostPlaceholder": "smtp.mailgun.org",
   "toolsSmtpPortPlaceholder": "Port",
   "toolsSmtpUserPlaceholder": "Username",
