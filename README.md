@@ -28,26 +28,26 @@ maintained by the core team. To add a new language, copy the JSON files from
 
 ## Namespaces
 
-| File | Content |
-|---|---|
-| `common.json` | Shared buttons, errors, status messages |
-| `nav.json` | Sidebar navigation labels |
-| `settings.json` | Settings page |
-| `servers.json` | Server add/edit modals |
-| `sites.json` | Sites tab and modals |
-| `wordpress.json` | WordPress management tab |
-| `php.json` | PHP tab |
-| `docker.json` | Docker containers, Compose, images, networks, volumes |
-| `databases.json` | MariaDB, PostgreSQL, Valkey |
-| `backups.json` | Backup jobs and restore |
-| `cloudflare.json` | Cloudflare DNS and WAF |
-| `monitoring.json` | Monitoring and metrics |
-| `security.json` | Brute-force guard, malware scanner, permissions |
-| `notifications.json` | Notification channels and events |
-| `files.json` | File editor |
-| `cron.json` | Cron manager |
-| `health.json` | Health checks |
-| `logs.json` | Log viewer |
+| File                 | Content                                               |
+| -------------------- | ----------------------------------------------------- |
+| `common.json`        | Shared buttons, errors, status messages               |
+| `nav.json`           | Sidebar navigation labels                             |
+| `settings.json`      | Settings page                                         |
+| `servers.json`       | Server add/edit modals                                |
+| `sites.json`         | Sites tab and modals                                  |
+| `wordpress.json`     | WordPress management tab                              |
+| `php.json`           | PHP tab                                               |
+| `docker.json`        | Docker containers, Compose, images, networks, volumes |
+| `databases.json`     | MariaDB, PostgreSQL, Valkey                           |
+| `backups.json`       | Backup jobs and restore                               |
+| `cloudflare.json`    | Cloudflare DNS and WAF                                |
+| `monitoring.json`    | Monitoring and metrics                                |
+| `security.json`      | Brute-force guard, malware scanner, permissions       |
+| `notifications.json` | Notification channels and events                      |
+| `files.json`         | File editor                                           |
+| `cron.json`          | Cron manager                                          |
+| `health.json`        | Health checks                                         |
+| `logs.json`          | Log viewer                                            |
 
 ## Adding a new namespace
 
