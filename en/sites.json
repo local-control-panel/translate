@@ -7,6 +7,8 @@
   "badgeStatic": "static",
   "badgeSuspended": "suspended",
   "badgeWorker": "worker ×{{count}}",
+  "changePhpBtn": "Change PHP",
+  "changePhpTitle": "Migrate to a different PHP runtime",
   "configBtn": "⚙ Config",
   "configBtnTitle": "Configure FrankenPHP container",
   "createDbHint": "(isolated DB + user for this site)",
@@ -38,6 +40,8 @@
   "noSitesAfter": "exists.",
   "noSitesBefore": "No sites configured yet. Make sure FrankenPHP is installed and",
   "noSitesPath": "/etc/frankenphp/Caddyfile.d/",
+  "openInBrowserBtn": "Open",
+  "openInBrowserTitle": "Open in browser",
   "pageTitle": "Sites",
   "reactivateBtn": "🔧 Reactivate",
   "reactivateTitle": "Reactivate site",
@@ -69,5 +73,7 @@
   "syncNote": "The destination server must have SSH access to this source server (key-based auth). rsync will pull files from source to destination. Use \"Set up access\" to do this automatically.",
   "syncStartBtn": "Start Sync",
   "syncTitle": "Sync files to server",
+  "tlsDaysLeft": "TLS {{days}}d",
+  "tlsExpired": "TLS expired {{days}}d ago",
   "workerModeHint": "(better performance for Laravel/Symfony)"
 }
