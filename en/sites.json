@@ -70,7 +70,6 @@
   "syncDestPath": "Destination path",
   "syncDestServer": "Destination server",
   "syncNoServers": "No other servers available.",
-  "syncNote": "The destination server must have SSH access to this source server (key-based auth). rsync will pull files from source to destination. Use \"Set up access\" to do this automatically.",
   "syncStartBtn": "Start Sync",
   "syncTitle": "Sync files to server",
   "tlsDaysLeft": "TLS {{days}}d",
