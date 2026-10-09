@@ -49,8 +49,6 @@
   "pageTitle": "Servers",
   "pubKeyNote": "Public key - add to ~/.ssh/authorized_keys on the server",
   "searchPlaceholder": "Search servers…",
-  "readonlyHint": "Destructive actions (delete, stop, deploy…) will be hidden for this server.",
-  "readonlyLabel": "Read-only mode",
   "runOnCount": "Run on {{count}} servers",
   "runOnTag": "Run on tag: {{tag}}",
   "statusConnected": "Connected",
