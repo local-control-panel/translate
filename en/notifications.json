@@ -9,6 +9,8 @@
   "eventRam": "RAM",
   "eventRuntimeFail": "runtime ✗",
   "eventRuntimeOk": "runtime ✓",
+  "eventSiteDown": "site ✗",
+  "eventSiteUp": "site ✓",
   "eventSsl": "SSL",
   "eventVuln": "Vuln",
   "noChannels": "No notification channels configured."
