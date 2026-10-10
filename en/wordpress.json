@@ -298,5 +298,13 @@
   "migrateFieldDbPassword": "DB password",
   "migrateFooterPrefix": "Migrates DB (.sql.gz) and files (.tar.gz) via the local machine. DNS is not changed automatically - point",
   "migrateFooterSuffix": "to the destination server IP after migration.",
-  "migrateBtnStart": "Start migration"
+  "migrateBtnStart": "Start migration",
+  "toolsHeadingOrphanedTables": "Orphaned tables",
+  "toolsOrphanedTablesTitle": "Find unregistered tables",
+  "toolsOrphanedTablesDesc": "Lists tables with this site's prefix that WordPress does not register. Some active plugins keep private tables, so review before relying on this. Read-only: nothing is dropped.",
+  "toolsOrphanedTablesScan": "Scan",
+  "toolsOrphanedTablesNone": "No unregistered tables found.",
+  "toolsOrphanedTablesSummary": "{{count}} unregistered table(s); {{unmatched}} with no matching installed plugin ({{size}}).",
+  "toolsOrphanedTablesPlugin": "matches plugin {{plugin}}",
+  "toolsOrphanedTablesNoPlugin": "no matching plugin"
 }
