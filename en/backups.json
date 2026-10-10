@@ -153,5 +153,20 @@
   "remoteVerifySuccessMsg": "Backup verified OK",
   "remoteVerifyFailedMsg": "Backup verification failed",
   "remoteConfirmDeleteProvider": "Delete provider \"{{name}}\"?",
-  "remoteConfirmDeleteJob": "Delete job \"{{name}}\"?"
+  "remoteConfirmDeleteJob": "Delete job \"{{name}}\"?",
+  "legacyScheduleBadge": "Legacy - re-save to migrate",
+  "legacyScheduleHint": "Written by an older version with the database password inside the crontab. Edit and save the schedule to migrate it.",
+  "providerAuthChecking": "Checking...",
+  "providerAuthExpired": "Authorization expired or revoked - re-authorize",
+  "providerAuthNeedsReauth": "Google rejected the client - re-authorize",
+  "providerAuthUnknown": "Authorized (could not verify with Google)",
+  "providerDisconnectBtn": "Disconnect",
+  "updateCredentialsBody": "If the {{dbType}} password was changed, scheduled backups of {{database}} fail to sign in until the new password is saved. It is sent to the server once and not stored in the panel.",
+  "updateCredentialsBtn": "Update credentials",
+  "updateCredentialsField": "New database root password",
+  "updateCredentialsHint": "Save a new database password after it was rotated",
+  "updateCredentialsRequired": "Enter the current database password.",
+  "updateCredentialsSave": "Save credentials",
+  "updateCredentialsSaved": "Backup credentials updated",
+  "updateCredentialsTitle": "Update backup credentials"
 }
