@@ -17,5 +17,6 @@
   "presetEveryMinute": "Every minute",
   "presetMonthly1st": "Monthly 1st",
   "presetWeeklySunday": "Weekly Sunday",
-  "readingLogs": "Reading system logs…"
+  "readingLogs": "Reading system logs…",
+  "secretRedacted": "A password stored in this crontab line is hidden. This is a legacy database backup schedule: re-save it in Backups to migrate it and remove the password from the crontab."
 }
