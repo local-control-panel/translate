@@ -83,5 +83,18 @@
   "syncTitle": "Sync files to server",
   "tlsDaysLeft": "TLS {{days}}d",
   "tlsExpired": "TLS expired {{days}}d ago",
-  "workerModeHint": "(better performance for Laravel/Symfony)"
+  "workerModeHint": "(better performance for Laravel/Symfony)",
+  "envLabel": "Environment",
+  "envHint": "Sets how strict the checks for this site are. Production is the strictest.",
+  "envProduction": "Production",
+  "envStaging": "Staging",
+  "envDevelopment": "Development",
+  "envUnconfirmedTitle": "Not reviewed yet - treated as production",
+  "envSaved": "Environment saved",
+  "envSaveFailed": "Could not save the environment",
+  "envReviewTitle": "Check the environment of your sites",
+  "envReviewBody": "Sites that existed before this setting are treated as production. Review them and change the ones that are not.",
+  "envReviewConfirm": "Confirm",
+  "envReviewConfirming": "Saving...",
+  "envReviewDismiss": "Dismiss"
 }
