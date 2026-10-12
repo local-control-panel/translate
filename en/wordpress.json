@@ -186,6 +186,8 @@
   "cronMsgRanAllDue": "Ran all due events.",
   "cronMsgRanHook": "Ran: {{hook}}",
   "cronMsgDeletedHook": "Deleted: {{hook}}",
+  "cronMsgDeleteConfirm": "Delete cron event \"{{hook}}\"? It will not run again unless a plugin schedules it again.",
+  "cronMsgToggleFailed": "Could not update DISABLE_WP_CRON: {{message}}",
 
   "usersHeadingCreate": "Create User",
   "usersMsgLoginEmailRequired": "Login and email are required.",
