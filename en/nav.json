@@ -27,5 +27,6 @@
   "files": "Files",
   "terminal": "Terminal",
   "agents": "Agents",
-  "auditLog": "Audit Log"
+  "auditLog": "Audit Log",
+  "changeHistory": "Change history"
 }
