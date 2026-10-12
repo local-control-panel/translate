@@ -331,13 +331,13 @@
   "auditCpLock": "composer.lock",
   "auditCpComposer": "Composer",
   "appLogTitle": "Application log",
-  "appLogHint": "Read-only. The last lines of the application's own log file: WordPress debug.log, Laravel storage/logs, Joomla administrator/logs. Credentials in messages are masked.",
+  "appLogHint": "Read-only. The last lines of the application's own log file: Laravel storage/logs, Joomla administrator/logs. Credentials in messages are masked.",
   "appLogLines": "Lines",
   "appLogRefresh": "Refresh log",
   "appLogSize": "Size: {{size}}",
   "appLogLarge": "This log is {{size}}. A log that is never rotated keeps growing and can fill the disk; clear it once you are done debugging.",
   "appLogEmpty": "The log file is empty.",
-  "appLogUnavailableNoLogFile": "There is no log file yet. For WordPress, turn on WP_DEBUG_LOG to create wp-content/debug.log; Laravel and Joomla create theirs when something is logged.",
+  "appLogUnavailableNoLogFile": "There is no log file yet. Laravel and Joomla create theirs when something is logged.",
   "appLogUnavailableUnreadable": "The log file exists but could not be read as the site user.",
   "appLogUnavailableUnsupported": "This site has no known log file."
 }
