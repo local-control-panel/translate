@@ -322,7 +322,7 @@
   "toolsOrphanedTablesConfirmBtn": "Drop tables",
   "toolsOrphanedTablesConfirmWarning": "This permanently deletes the tables below and their data. It cannot be undone.",
   "toolsOrphanedTablesConfirmBackup": "Export the database first (Databases tab) so you can restore them if a plugin still needs one.",
-  "toolsOrphanedTablesConfirmMultisite": "This is a multisite network: tables of every site in the network count as registered and are never offered or dropped.",
   "toolsOrphanedTablesConfirmTotal": "Total: {{count}} table(s), {{size}}.",
-  "toolsOrphanedTablesConfirmType": "Type {{count}} to confirm"
+  "toolsOrphanedTablesConfirmType": "Type {{count}} to confirm",
+  "toolsOrphanedTablesMultisiteBlocked": "Dropping tables is blocked on multisite networks until it has been verified on a real network. You can still scan."
 }
