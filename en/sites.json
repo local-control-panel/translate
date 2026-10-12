@@ -294,5 +294,12 @@
   "otlCopy": "Copy",
   "otlCopied": "Copied",
   "otlOpenBrowser": "Open in browser",
-  "otlClipboardNote": "The link is now on your clipboard; clear it when done."
+  "otlClipboardNote": "The link is now on your clipboard; clear it when done.",
+  "schedulerTitle": "Laravel scheduler",
+  "schedulerHint": "Laravel runs its scheduled tasks only when a cron job calls php artisan schedule:run every minute. This reads the project's files and the server's crontab; nothing is changed until you add the job.",
+  "schedulerCheck": "Check scheduler",
+  "schedulerRecheck": "Check again",
+  "schedulerInstall": "Add scheduler cron job",
+  "schedulerConfirm": "Add a cron job to the server's crontab that runs php artisan schedule:run every minute, as this site's user, inside its PHP container? You can remove it later in the Cron tab.",
+  "schedulerInstalled": "Scheduler cron job added."
 }
