@@ -70,6 +70,7 @@
   "signalAuditUploadPhp": "PHP in uploads: {{count}}",
   "signalAuditWordpress": "WordPress audit: {{count}}",
   "signalCheckedAt": "Last checked {{when}}",
+  "signalConfigDrift": "Config drift: {{count}}",
   "signalCronStale": "Cron stale",
   "signalDbUpdatesPending": "DB updates pending: {{count}}",
   "signalJoomlaCacheOff": "Cache off",
