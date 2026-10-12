@@ -62,5 +62,12 @@
   "wpPresetLoginChallengeName": "Challenge wp-login.php",
   "wpPresetLoginChallengeDesc": "JS challenge on wp-login.php",
   "wpPresetBadBotsName": "Block known bad bots",
-  "wpPresetBadBotsDesc": "Block common scanning/scraping bots"
+  "wpPresetBadBotsDesc": "Block common scanning/scraping bots",
+
+  "purgeUrlsTitle": "Purge specific URLs",
+  "purgeUrlsHint": "One full URL per line, up to 30. Use this after changing a page instead of purging the whole zone.",
+  "purgeUrlsLabel": "URLs to purge",
+  "purgeUrlsButton": "Purge URLs",
+  "purgeUrlsDone_one": "Purged {{count}} URL from the cache",
+  "purgeUrlsDone_other": "Purged {{count}} URLs from the cache"
 }
