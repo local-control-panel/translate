@@ -462,5 +462,6 @@
   "appLogEmpty": "The log file is empty.",
   "appLogUnavailableNoLogFile": "There is no log file yet. Laravel and Joomla create theirs when something is logged.",
   "appLogUnavailableUnreadable": "The log file exists but could not be read as the site user.",
-  "appLogUnavailableUnsupported": "This site has no known log file."
+  "appLogUnavailableUnsupported": "This site has no known log file.",
+  "healthListNote": "Backups and security headers are not read for the list - open the site for the full score."
 }
