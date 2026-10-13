@@ -116,7 +116,7 @@
   "signalAuditWordpressPerformance": "WordPress performance: {{count}}",
   "signalAuditPhpErrors": "PHP error log: {{count}}",
   "signalAuditWordpressUpdates": "WordPress updates: {{count}}",
-  "signalAuditJoomlaTables": "Joomla tables: {{count}}",
+  "signalAuditResidualTables": "Residual tables: {{count}}",
   "signalCheckedAt": "Last checked {{when}}",
   "signalConfigDrift": "Config drift: {{count}}",
   "signalCronStale": "Cron stale",
