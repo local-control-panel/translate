@@ -43,7 +43,6 @@
   "auditWpUpThemes": "Theme updates",
   "auditWpUpThemesCompat": "Theme PHP and WordPress requirements",
   "auditWpUpThemesMajor": "Theme major versions",
-  "auditWpUpThemesTested": "Themes not tested with this WordPress",
   "auditWpUpTitle": "WordPress update review",
   "auditWpXmlrpc": "XML-RPC",
   "badgeProxy": "proxy → {{upstream}}",
