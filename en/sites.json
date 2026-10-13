@@ -310,7 +310,6 @@
   "drupalActionUpdateDbNone": "No database updates were pending.",
   "cacheClearTitle": "Cache",
   "cacheClearLaravelDesc": "Runs artisan optimize:clear: the compiled, config, route, view and event caches and the application cache store.",
-  "cacheClearJoomlaDesc": "Runs Joomla's own cache:clear console command.",
   "cacheClearLaravelWarn": "Sessions kept in the cache store are cleared too, so signed-in visitors may be logged out.",
   "cacheClearButton": "Clear cache",
   "cacheClearConfirm": "Confirm: clear cache",
