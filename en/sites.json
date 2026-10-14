@@ -519,5 +519,21 @@
   "hardening_warning": "Should fix",
   "hardening_info": "Not needed here",
   "hardening_unknown": "Not checked, run it below",
-  "hardening_done": "Done"
+  "hardening_done": "Done",
+  "joomlaCloneTitle": "Clone to staging",
+  "joomlaCloneDesc": "Copies the files and the database into an existing staging site. The copy gets its own database user and a new secret.",
+  "joomlaCloneOpen": "Clone to staging…",
+  "joomlaCloneSource": "Source site",
+  "joomlaCloneStagingDomain": "Staging domain",
+  "joomlaCloneHintRootDb": "Root: /var/www/{{domain}} · DB: {{dbName}}",
+  "joomlaCloneInfoExisting": "The staging site must already exist under Sites. Its files and database are replaced.",
+  "joomlaCloneInfoDb": "A new MariaDB database is provisioned with a random password. The copy is checked with Joomla's own console before it is kept; if the check fails the staging site is put back as it was.",
+  "joomlaCloneSafetyTitle": "Make the copy safe",
+  "joomlaCloneSafetyDesc": "Applied to the copy only, never to the original. On by default for staging and development.",
+  "joomlaCloneSafety_noindex": "Ask search engines not to index it",
+  "joomlaCloneSafety_blockMail": "Turn off outgoing mail",
+  "joomlaCloneSubmit": "Clone to staging",
+  "joomlaCloneRunning": "Cloning…",
+  "joomlaCloneSuccess": "Staging site cloned",
+  "joomlaCloneLabelUrl": "URL"
 }
