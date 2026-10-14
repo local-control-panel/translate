@@ -7,10 +7,8 @@
   "tabTools": "Tools",
   "tabCron": "Cron",
   "tabWoo": "WooCommerce",
-
   "cliRegenerateUrls": "Regenerate URLs",
   "cliCheckUpdates": "Check updates",
-
   "msgLoadingInfo": "Loading WordPress info…",
   "btnOpenWpAdminTitle": "Open WP Admin",
   "btnWpAdmin": "WP Admin",
@@ -62,7 +60,6 @@
   "headingWpCli": "WP-CLI",
   "btnRun": "Run",
   "msgSearchReplaceInvalidChars": "Error: search/replace strings must not contain backticks, $ or backslashes.",
-
   "updatesHeading": "Available Updates",
   "updatesCountBadge": "{{count}} update",
   "updatesCountBadge_plural": "{{count}} updates",
@@ -82,7 +79,6 @@
   "msgAllThemesUpToDate": "All themes up to date",
   "updatesLogHeading": "Update log",
   "msgDoneCheck": "✓ Done.",
-
   "installCategorySecurity": "Security",
   "installCategoryPerformance": "Performance",
   "installCategorySEO": "SEO",
@@ -105,7 +101,6 @@
   "installDescWpMailSmtp": "Route WordPress emails through an SMTP provider (Gmail, SendGrid, Mailgun…).",
   "installDescDuplicatePage": "Duplicate posts, pages, and custom post types with one click.",
   "installDescClassicEditor": "Restore the original TinyMCE editor if Gutenberg doesn't fit your workflow.",
-
   "toolsCleanupTransients": "Delete transients",
   "toolsCleanupTransientsDesc": "Removes all transients from the database",
   "toolsCleanupRevisions": "Delete post revisions",
@@ -174,7 +169,6 @@
   "toolsImportTitle": "Import content (WXR)",
   "toolsImportDesc": "Uploads a .xml file and imports it - installs the WordPress Importer plugin if needed",
   "toolsMsgImportComplete": "Import complete.",
-
   "cronDisableDesc": "Prevents WordPress from running cron on page load. Use a real system cron instead.",
   "cronHeadingEvents": "Scheduled Events",
   "cronBtnRunDueNow": "Run due now",
@@ -188,7 +182,6 @@
   "cronMsgDeletedHook": "Deleted: {{hook}}",
   "cronMsgDeleteConfirm": "Delete cron event \"{{hook}}\"? It will not run again unless a plugin schedules it again.",
   "cronMsgToggleFailed": "Could not update DISABLE_WP_CRON: {{message}}",
-
   "usersHeadingCreate": "Create User",
   "usersMsgLoginEmailRequired": "Login and email are required.",
   "usersBtnCreateUser": "Create user",
@@ -202,7 +195,6 @@
   "usersMsgUserDeleted": "User deleted.",
   "usersMsgNoUsersFound": "No users found.",
   "usersMsgLoading": "Loading users…",
-
   "wooMsgDetecting": "Detecting WooCommerce…",
   "wooMsgNotInstalled": "WooCommerce is not installed on this site.",
   "wooHeading": "WooCommerce",
@@ -222,7 +214,6 @@
   "wooUpdateDescPrefix": "Runs",
   "wooBtnUpdate": "Update",
   "wooMsgUpdateError": "Error: {{message}}",
-
   "auditMsgLoading": "Loading site audit…",
   "auditHeadingCore": "WordPress Core",
   "auditBadgeUpToDate": "up to date",
@@ -235,7 +226,6 @@
   "auditBtnUpdateAllThemes": "Update All Themes",
   "auditMsgNoThemes": "No themes installed.",
   "auditLabelTotalUsers": "total users",
-
   "securityHeadingChecksum": "Checksum Verification",
   "securityBtnScanAll": "Scan All",
   "securityChecksumDesc": "Compares core and plugin files against official WordPress.org checksums. Any modification may indicate malware.",
@@ -268,7 +258,6 @@
   "securityBtnRegenSalts": "Regenerate salts…",
   "securityConfirmLogoutWarning": "This will log out all users. Are you sure?",
   "securityBtnYesRegenerate": "Yes, regenerate",
-
   "cloneTitle": "Clone to Staging",
   "cloneDesc": "Copies files, clones database, and runs search-replace",
   "cloneLabelSourceSite": "Source site",
@@ -281,7 +270,6 @@
   "cloneMsgSuccess": "Staging site cloned successfully",
   "cloneLabelUrl": "URL",
   "cloneBtnOpenWpAdmin": "Open WP Admin →",
-
   "migrateTitle": "Migrate to Another Server",
   "migrateLabelSource": "Source",
   "migrateMsgInProgress": "Migrating… this may take several minutes for large sites.",
@@ -326,5 +314,11 @@
   "toolsOrphanedTablesConfirmBackup": "Export the database first (Databases tab) so you can restore them if a plugin still needs one.",
   "toolsOrphanedTablesConfirmTotal": "Total: {{count}} table(s), {{size}}.",
   "toolsOrphanedTablesConfirmType": "Type {{count}} to confirm",
-  "toolsOrphanedTablesMultisiteBlocked": "Dropping tables is blocked on multisite networks until it has been verified on a real network. You can still scan."
+  "toolsOrphanedTablesMultisiteBlocked": "Dropping tables is blocked on multisite networks until it has been verified on a real network. You can still scan.",
+  "cloneSafetyTitle": "Make the copy safe",
+  "cloneSafetyDesc": "Applied to the copy only, never to the original. On by default for staging and development.",
+  "cloneSafety_noindex": "Ask search engines not to index it",
+  "cloneSafety_disableCron": "Turn off WP-Cron (no scheduled tasks on the copy)",
+  "cloneSafety_blockMail": "Block outgoing mail",
+  "cloneSafety_blockPayments": "Hide WooCommerce payment gateways"
 }
