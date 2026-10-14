@@ -535,5 +535,7 @@
   "joomlaCloneSubmit": "Clone to staging",
   "joomlaCloneRunning": "Cloning…",
   "joomlaCloneSuccess": "Staging site cloned",
-  "joomlaCloneLabelUrl": "URL"
+  "joomlaCloneLabelUrl": "URL",
+  "hardeningShow": "Show",
+  "hardeningShowTitle": "Jump to this check below"
 }
