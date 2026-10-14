@@ -19,5 +19,12 @@
   "reloadHistory": "Reload history",
   "refreshNow": "Refresh now",
   "systemLoad": "System Load",
-  "systemLoadChart": "System Load"
+  "systemLoadChart": "System Load",
+  "anomalyTitle": "Unusual for this time of the week",
+  "anomalyLine": "{{metric}} is {{current}}, typically {{median}} on {{when}}",
+  "anomalySustained": "Sustained",
+  "anomalyCpu": "CPU",
+  "anomalyLoad": "Load (5 min)",
+  "anomalyRam": "RAM",
+  "anomalyNet": "Network in"
 }
