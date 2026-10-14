@@ -539,5 +539,6 @@
   "hardeningShow": "Show",
   "hardeningShowTitle": "Jump to this check below",
   "hardeningOpenTab": "Open tab",
-  "hardeningOpenTabTitle": "Open the tab where this can be fixed"
+  "hardeningOpenTabTitle": "Open the tab where this can be fixed",
+  "healthListNoteCached": "Backups and security headers are from the last time this site was opened - open it to refresh them."
 }
