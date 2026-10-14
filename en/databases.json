@@ -59,7 +59,7 @@
   "searchBtn": "Search",
   "noKeysFound": "No keys found.",
   "selectKeyPrompt": "Select a key to view its value.",
-  "slotMapLabel": "Slot Map (DB 1–15)",
+  "slotMapLabel": "Slots (database 1–255)",
   "assignSlotLabel": "Assign Slot to Site",
   "assignNextFreeSlotBtn": "Assign Next Free Slot",
   "releaseBtn": "Release",
@@ -67,7 +67,7 @@
   "allSlotsAssigned": "All PHP sites have assigned slots.",
   "noPhpSites": "No PHP sites found. Add a PHP site first.",
   "accessTab": "Site access",
-  "accessDesc": "Each site gets its own Valkey user. It can only use keys that start with its prefix and cannot flush the instance, list keys or run administrative commands.",
+  "accessDesc": "Each site gets its own Valkey user and its own database (its slot). The user can use only that database, including flushing it, and cannot touch other sites or run administrative commands.",
   "accessSite": "Site",
   "accessNoSites": "No PHP sites on this server.",
   "accessCreate": "Create or rotate access",
@@ -79,10 +79,13 @@
   "accessCredentials": "Connection details for {{domain}} (shown once)",
   "accessUser": "User",
   "accessPassword": "Password",
-  "accessPrefix": "Key prefix",
   "accessCopy": "Copy",
   "accessAlreadyIssued": "This request was already completed; the password cannot be shown again. Rotate it to get a new one.",
   "accessFlushed": "{{count}} keys removed.",
   "accessRevoked": "Access revoked.",
-  "accessHint": "Connect through /run/valkey/valkey.sock with this user and password, start every key with the prefix, and use database 0 (SELECT is not allowed)."
+  "accessHint": "Connect through /run/valkey/valkey.sock with this user and password and select this database number. The site can flush its own database itself.",
+  "slotsUsed": "{{count}}/255 slots used",
+  "noSlots": "No slots assigned yet.",
+  "releaseConfirm": "Release the Valkey slot of {{domain}}? Its Valkey user and all its keys are removed.",
+  "accessDatabase": "Database"
 }
