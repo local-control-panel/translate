@@ -537,5 +537,7 @@
   "joomlaCloneSuccess": "Staging site cloned",
   "joomlaCloneLabelUrl": "URL",
   "hardeningShow": "Show",
-  "hardeningShowTitle": "Jump to this check below"
+  "hardeningShowTitle": "Jump to this check below",
+  "hardeningOpenTab": "Open tab",
+  "hardeningOpenTabTitle": "Open the tab where this can be fixed"
 }
