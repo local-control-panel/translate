@@ -499,5 +499,18 @@
   "extStateInactive": "Inactive",
   "extUpdateAvailable": "available",
   "extUpToDate": "up to date",
-  "extShowing": "Showing {{shown}} of {{total}}"
+  "extShowing": "Showing {{shown}} of {{total}}",
+  "smokeTitle": "Smoke check",
+  "smokeDesc": "A few URLs that must keep working. Run it before and after an update, a clone or a PHP change: the last two runs are compared, so what got worse stands out. Plain requests from this computer; only the status and the time are kept.",
+  "smokePaths": "Paths to check",
+  "smokePathsHint": "One path per line, for example /login. At most 20.",
+  "smokeSave": "Save paths",
+  "smokeRun": "Run check",
+  "smokeRunAgain": "Run again",
+  "smokeNoAnswer": "no answer",
+  "smokeRanAt": "Last run: {{time}}",
+  "smokeChange_worse": "worse",
+  "smokeChange_better": "better",
+  "smokeChange_changed": "changed",
+  "smokeChange_slower": "slower"
 }
