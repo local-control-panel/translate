@@ -46,5 +46,19 @@
   "volumeHeading": "Volumes",
   "volumeInspectTitle": "Volume: {{name}}",
   "volumeNoVolumes": "No volumes found.",
-  "volumePrune": "Prune Unused"
+  "volumePrune": "Prune Unused",
+  "containerDependencies": "Dependencies",
+  "containerDependenciesTitle": "What this container depends on and what depends on it",
+  "depsTitle": "Dependencies of {{name}}",
+  "depsDependsOn": "Depends on",
+  "depsRequiredBy": "Required by",
+  "depsNetworks": "Networks",
+  "depsVolumes": "Volumes",
+  "depsNone": "None",
+  "depsKindDependsOn": "Compose depends_on",
+  "depsKindEnvHost": "environment host name",
+  "depsRunning": "running",
+  "depsStopped": "stopped",
+  "depsError": "The dependencies could not be read.",
+  "depsNote": "Read from docker inspect and the Compose files. Only names are read, never environment values."
 }
