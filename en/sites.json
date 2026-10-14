@@ -512,5 +512,12 @@
   "smokeChange_worse": "worse",
   "smokeChange_better": "better",
   "smokeChange_changed": "changed",
-  "smokeChange_slower": "slower"
+  "smokeChange_slower": "slower",
+  "hardeningTitle": "Hardening",
+  "hardeningProgress": "{{done}} of {{total}} done",
+  "hardening_critical": "Fix now",
+  "hardening_warning": "Should fix",
+  "hardening_info": "Not needed here",
+  "hardening_unknown": "Not checked, run it below",
+  "hardening_done": "Done"
 }
