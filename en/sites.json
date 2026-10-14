@@ -526,7 +526,7 @@
   "joomlaCloneSource": "Source site",
   "joomlaCloneStagingDomain": "Staging domain",
   "joomlaCloneHintRootDb": "Root: /var/www/{{domain}} · DB: {{dbName}}",
-  "joomlaCloneInfoExisting": "The staging site must already exist under Sites. Its files and database are replaced.",
+  "joomlaCloneInfoExisting": "If the staging site does not exist yet it is created with the same PHP runtime as the source. An existing staging site has its files and database replaced.",
   "joomlaCloneInfoDb": "A new MariaDB database is provisioned with a random password. The copy is checked with Joomla's own console before it is kept; if the check fails the staging site is put back as it was.",
   "joomlaCloneSafetyTitle": "Make the copy safe",
   "joomlaCloneSafetyDesc": "Applied to the copy only, never to the original. On by default for staging and development.",
