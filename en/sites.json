@@ -540,5 +540,13 @@
   "hardeningShowTitle": "Jump to this check below",
   "hardeningOpenTab": "Open tab",
   "hardeningOpenTabTitle": "Open the tab where this can be fixed",
-  "healthListNoteCached": "Backups and security headers are from the last time this site was opened - open it to refresh them."
+  "healthListNoteCached": "Backups and security headers are from the last time this site was opened - open it to refresh them.",
+  "renameChangesTitle": "What changes",
+  "renameChangesServer": "On the server: the site's route and runtime config move to the new name, its files move if they live under the default /var/www/<domain> path, and Caddy reloads and asks for a new certificate on the first visit.",
+  "renameChangesLocal": "In this app: notes, environment label, smoke URLs, deploy settings and history, the auto-deploy cron label, backup job paths under the site's folder, database bindings, and the uptime and WordPress metrics history.",
+  "renameChangesValkey": "Valkey: the site's Valkey user is renamed from site_{{old}} to site_{{new}}. Its password and database stay the same; change the user name in the site's cache settings.",
+  "renameNotChangedTitle": "What does not change",
+  "renameNotChanged": "The site's own settings are not edited: a WordPress site address, a Joomla live_site or any URL stored in the database or in config files. DNS for the new domain must point to this server before it can get a certificate. Anything that uses the old domain (webhooks, Cloudflare records, OAuth callbacks) has to be updated by you.",
+  "renameWarningsTitle": "Renamed - check this",
+  "renameValkeyFailed": "The Valkey user of the site could not be moved to the new name ({{error}}). The old user site_{{old}} still works; rename it from Valkey > Site access by rotating access for the new domain."
 }
