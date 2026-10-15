@@ -76,7 +76,7 @@
   "accessConfirmRotate": "Give {{domain}} a new Valkey password? The old password stops working at once.",
   "accessConfirmFlush": "Remove every Valkey key of {{domain}}?",
   "accessConfirmRevoke": "Remove the Valkey user and all keys of {{domain}}?",
-  "accessCredentials": "Connection details for {{domain}} (shown once)",
+  "accessCredentials": "Connection details for {{domain}}",
   "accessUser": "User",
   "accessPassword": "Password",
   "accessCopy": "Copy",
@@ -87,5 +87,10 @@
   "slotsUsed": "{{count}}/255 slots used",
   "noSlots": "No slots assigned yet.",
   "releaseConfirm": "Release the Valkey slot of {{domain}}? Its Valkey user and all its keys are removed.",
-  "accessDatabase": "Database"
+  "accessDatabase": "Database",
+  "accessShow": "Show",
+  "accessHide": "Hide",
+  "accessSaved": "Saved encrypted on this computer, so you can open it again here.",
+  "accessNotSaved": "The password could not be saved on this computer. Copy it now; rotate it to get a new one later.",
+  "accessNoSaved": "No saved password for this site. If it already has a Valkey user, rotate it to get a new password."
 }
