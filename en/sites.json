@@ -634,5 +634,6 @@
   "drupalUpdatesProblemFailed": "Unknown: {{tool}} failed or timed out. This is not the same as having no updates.",
   "drupalUpdatesProblemBadOutput": "Unknown: {{tool}} answered with something the panel could not read.",
   "drupalUpdatesUnavailableNotDrupal": "Drupal was not detected at this site root.",
-  "drupalUpdatesUnavailableMultisite": "Drupal multisite is not supported here yet; select a single-site installation."
+  "drupalUpdatesUnavailableMultisite": "Drupal multisite is not supported here yet; select a single-site installation.",
+  "drupalUpdatesSourceComposerAudit": "Drush could not run its advisory check here, so the list comes from Composer's own audit of the lock file."
 }
