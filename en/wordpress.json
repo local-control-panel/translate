@@ -325,5 +325,8 @@
   "cloneSafety_noindex": "Ask search engines not to index it",
   "cloneSafety_disableCron": "Turn off WP-Cron (no scheduled tasks on the copy)",
   "cloneSafety_blockMail": "Block outgoing mail",
-  "cloneSafety_blockPayments": "Hide WooCommerce payment gateways"
+  "cloneSafety_blockPayments": "Hide WooCommerce payment gateways",
+  "toolsCompressRotatedLog": "Compress rotated log (gzip)",
+  "toolsMsgConfirmRotateDebugLogCompressed": "Rotate debug.log ({{size}})? The current log will be kept as debug.log.1.gz if compression succeeds, otherwise debug.log.1 (up to {{keep}} rotated copies; the oldest is deleted). A new empty debug.log replaces it.",
+  "toolsMsgRotateCompressionFailed": "The log was rotated, but compression did not complete. The copy is kept as debug.log.1."
 }
