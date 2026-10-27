@@ -718,5 +718,7 @@
   "createRecoveryFailed": "Site creation recovery failed",
   "createOperationRunning": "Site creation is still running. Wait and check its status.",
   "createOperationInterrupted": "Site creation was interrupted. Check its status before trying again.",
-  "createOperationCheck": "Check operation status"
+  "createOperationCheck": "Check operation status",
+  "deployHistoryLimited": "Showing a limited history.",
+  "deployHistoryScanLimited": "History scan limit reached; some operations may be missing."
 }
