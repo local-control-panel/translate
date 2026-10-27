@@ -39,5 +39,6 @@
   "stopped": "stopped",
   "type": "Type",
   "username": "Username",
-  "users": "Users"
+  "users": "Users",
+  "protectedRestoreOfflineConfirmation": "Confirm that applications, workers and other writers to this database are stopped and that this is a trusted dump for this database only. A private snapshot is created before import. If import fails, the engine attempts to restore the snapshot. Keep writers stopped if the outcome is unknown."
 }
