@@ -171,5 +171,10 @@
   "updateCredentialsRequired": "Enter the current database password.",
   "updateCredentialsSave": "Save credentials",
   "updateCredentialsSaved": "Backup credentials updated",
-  "updateCredentialsTitle": "Update backup credentials"
+  "updateCredentialsTitle": "Update backup credentials",
+  "restoreRecoveryButton": "Recover previous database",
+  "restoreRecoveryWorking": "Checking recovery…",
+  "restoreRecoveryConfirmation": "Restore the retained pre-import snapshot for {{dbType}} database \"{{database}}\" in container \"{{container}}\"?\n\nOriginal request: {{requestId}}\n\nConfirm that applications, workers and other writers remain offline and that ALL earlier import and rollback clients have stopped. This replaces the current database with the previous snapshot. The submitted dump will not be imported again.",
+  "restoreRecoveryUnavailable": "Recovery is unavailable until the original interrupted restore and its retained snapshot are confirmed.",
+  "restoreRecoverySucceeded": "The previous state of {{database}} was restored. The submitted import was not repeated."
 }
