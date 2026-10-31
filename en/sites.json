@@ -720,5 +720,22 @@
   "createOperationInterrupted": "Site creation was interrupted. Check its status before trying again.",
   "createOperationCheck": "Check operation status",
   "deployHistoryLimited": "Showing a limited history.",
-  "deployHistoryScanLimited": "History scan limit reached; some operations may be missing."
+  "deployHistoryScanLimited": "History scan limit reached; some operations may be missing.",
+  "staticTitle": "Publish a ready static artifact",
+  "staticHint": "HTML, SPA and Astro static output only. Upload the finished output to the server first. No build is run. The directory must contain index.html and only public files; remove secrets embedded in assets before publishing.",
+  "staticDomain": "Static site domain",
+  "staticSource": "Artifact directory on the server",
+  "staticSpa": "Enable SPA fallback for extensionless deep links (missing assets remain 404)",
+  "staticPublish": "Publish artifact",
+  "staticPublishConfirm": "Publish the ready artifact for {{domain}}? The engine will validate a private copy before replacing the current release.",
+  "staticPublished": "The server confirmed static publication.",
+  "staticCheckBeforeRetry": "Check request {{requestId}} before trying another publication.",
+  "staticReadFailed": "Publication history could not be read. Status is unknown.",
+  "staticStatusUnknown": "Remote status not checked",
+  "staticCheck": "Check server status",
+  "staticRecover": "Restore previous release",
+  "staticRecoveryConfirm": "Restore the previous confirmed release and route for {{domain}}? On a first publication this removes the new route. The interrupted publication will be recorded as failed.",
+  "staticRecovered": "The server confirmed restoration of the previous release and route.",
+  "staticHistoryHint": "Publication requests are retained locally. Check server status after a disconnect. Recovery is offered only when the server confirms it is safe.",
+  "staticRequest": "Request ID (use the domain above to check a request from another session)"
 }
