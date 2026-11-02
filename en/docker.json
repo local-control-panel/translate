@@ -60,5 +60,11 @@
   "depsRunning": "running",
   "depsStopped": "stopped",
   "depsError": "The dependencies could not be read.",
-  "depsNote": "Read from docker inspect and the Compose files. Only names are read, never environment values."
+  "depsNote": "Read from docker inspect and the Compose files. Only names are read, never environment values.",
+  "stackMariadbLineLabel": "MariaDB line (chosen at install)",
+  "stackMariadbLineOption": "MariaDB {{version}}",
+  "stackMariadbLineOptionDefault": "MariaDB {{version}} (default)",
+  "stackMariadbLineHint": "The primary database of this server. The other line is not started. It cannot be changed after install, and no data is moved between lines.",
+  "stackMariadbLineLocked": "This server's database runs on MariaDB {{version}}. The line cannot be changed and no data is moved between lines.",
+  "stackMariadbPinned": "MariaDB {{version}} (this server)"
 }
