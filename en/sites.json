@@ -74,6 +74,7 @@
   "auditWpPfObjectCacheConnection": "Valkey/Redis connection",
   "auditWpPfPageCache": "Page cache",
   "auditWpPfPlugins": "Active plugins",
+  "auditWpPfPluginAge": "Plugins without an update for 2 years",
   "auditWpPfSaveQueries": "SAVEQUERIES",
   "auditWpPfTransients": "Expired transients",
   "auditWpPluginChecksums": "Plugin file integrity",
