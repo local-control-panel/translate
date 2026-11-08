@@ -1,7 +1,7 @@
 {
   "name": "@local-control-panel/i18n",
   "version": "1.0.0",
-  "description": "Community translations for Website Control Panel",
+  "description": "Community translations for OrbDen",
   "license": "MIT",
   "type": "module",
   "main": "index.ts",
