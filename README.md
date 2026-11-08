@@ -1,6 +1,6 @@
-# Website Control Panel — Translations
+# OrbDen — Translations
 
-Community translations for [Website Control Panel](https://github.com/local-control-panel/website-control-panel).
+Community translations for [OrbDen](https://github.com/local-control-panel/website-control-panel).
 
 ## How it works
 
