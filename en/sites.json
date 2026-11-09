@@ -869,5 +869,16 @@
   "drupalUpdateReason_registryUnreachable": "The package registry could not be reached from the server. Try again later.",
   "drupalUpdateReason_diskOrPermission": "Composer ran out of disk space or lacks permission on the project files.",
   "drupalUpdateReason_timeout": "Composer took too long and was stopped.",
-  "drupalUpdateReason_other": "Composer failed for another reason."
+  "drupalUpdateReason_other": "Composer failed for another reason.",
+  "drupalSmokeChecking": "Checking the saved URLs…",
+  "drupalSmokeNotRun": "HTTP check not run: this site has no saved smoke URLs.",
+  "drupalSmokeUnavailable": "The HTTP check could not run, so its result is unknown.",
+  "drupalSmokeBeforeOk": "HTTP check before the update: {{count}} URL(s) answer.",
+  "drupalSmokeBeforeFailing": "Warning: {{count}} saved URL(s) already fail before the update, so a failure afterwards cannot be told apart from this one. You can still continue.",
+  "drupalSmokeAfterOk": "HTTP check after the update: {{count}} URL(s) answer.",
+  "drupalSmokeAfterWorse": "Warning: {{count}} URL(s) worked before the update and fail now. The update was kept; you can restore the recovery bundle.",
+  "drupalUpdateRestoreBundle": "Restore from bundle",
+  "drupalUpdateRestoreConfirm": "Restore the files and database from this bundle? Changes made after the update are lost.",
+  "drupalUpdateRestoreYes": "Restore",
+  "drupalUpdateRestored": "Restored from recovery bundle {{id}}."
 }
