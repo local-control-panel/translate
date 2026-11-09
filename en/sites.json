@@ -863,5 +863,11 @@
   "drupalUpdateConfirm": "Back up and update",
   "drupalUpdateCancel": "Cancel",
   "drupalUpdateDone": "Updated. The recovery bundle {{id}} is kept for 7 days.",
-  "drupalUpdateRolledBack": "The update failed and was rolled back; the site is as it was before. Reason: {{reason}} (recovery bundle {{id}})."
+  "drupalUpdateRolledBack": "The update failed and was rolled back; the site is as it was before. Reason: {{reason}} (recovery bundle {{id}}).",
+  "drupalUpdateReason_advisoryBlocked": "Composer refuses a version that has a security advisory. Choose a version outside the affected range or update the package that pins it.",
+  "drupalUpdateReason_resolutionConflict": "The version constraints in composer.json do not allow this update. Check which package pins an older version.",
+  "drupalUpdateReason_registryUnreachable": "The package registry could not be reached from the server. Try again later.",
+  "drupalUpdateReason_diskOrPermission": "Composer ran out of disk space or lacks permission on the project files.",
+  "drupalUpdateReason_timeout": "Composer took too long and was stopped.",
+  "drupalUpdateReason_other": "Composer failed for another reason."
 }
