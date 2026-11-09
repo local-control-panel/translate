@@ -880,5 +880,8 @@
   "drupalUpdateRestoreBundle": "Restore from bundle",
   "drupalUpdateRestoreConfirm": "Restore the files and database from this bundle? Changes made after the update are lost.",
   "drupalUpdateRestoreYes": "Restore",
-  "drupalUpdateRestored": "Restored from recovery bundle {{id}}."
+  "drupalUpdateRestored": "Restored from recovery bundle {{id}}.",
+  "watchdogSite": "Site",
+  "watchdogSiteChoose": "Choose a site",
+  "watchdogSiteVerified": "Log of {{host}} (sites/{{directory}}, database {{database}}), checked against sites.php and Drush."
 }
