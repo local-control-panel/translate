@@ -743,7 +743,7 @@
   "multisiteNotSet": "not set",
   "multisiteTruncated": "The list was cut at its limit; more sites exist.",
   "drupalUpdatesTitle": "Drupal updates",
-  "drupalUpdatesHint": "Read-only list: nothing is installed or changed. Checking runs `composer outdated` (direct requirements) and `drush pm:security`, which contact the package and advisory servers.",
+  "drupalUpdatesHint": "Checking runs `composer outdated` (direct requirements) and `drush pm:security`, which contact the package and advisory servers. Nothing is changed until you start an update.",
   "drupalUpdatesCheck": "Check for updates",
   "drupalUpdatesChecking": "Checking...",
   "drupalUpdatesCheckedAt": "Checked {{when}}",
@@ -855,5 +855,13 @@
   "staticRecoveryConfirm": "Restore the previous confirmed release and route for {{domain}}? On a first publication this removes the new route. The interrupted publication will be recorded as failed.",
   "staticRecovered": "The server confirmed restoration of the previous release and route.",
   "staticHistoryHint": "Publication requests are retained locally. Check server status after a disconnect. Recovery is offered only when the server confirms it is safe.",
-  "staticRequest": "Request ID (use the domain above to check a request from another session)"
+  "staticRequest": "Request ID (use the domain above to check a request from another session)",
+  "drupalUpdateCore": "Update Drupal core",
+  "drupalUpdatePackages": "Update {{count}} selected package(s)",
+  "drupalUpdateConfirmCore": "Core and its dependencies will be updated with Composer. Before that the server saves a recovery bundle (all site files and the database) and puts the site in maintenance mode. If the update or the health check fails, everything is put back automatically. The bundle is kept for 7 days.",
+  "drupalUpdateConfirmPackages": "These packages will be updated with Composer: {{packages}}. Before that the server saves a recovery bundle (all site files and the database) and puts the site in maintenance mode. If the update or the health check fails, everything is put back automatically. The bundle is kept for 7 days.",
+  "drupalUpdateConfirm": "Back up and update",
+  "drupalUpdateCancel": "Cancel",
+  "drupalUpdateDone": "Updated. The recovery bundle {{id}} is kept for 7 days.",
+  "drupalUpdateRolledBack": "The update failed and was rolled back; the site is as it was before. Reason: {{reason}} (recovery bundle {{id}})."
 }
