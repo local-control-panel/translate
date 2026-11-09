@@ -883,5 +883,7 @@
   "drupalUpdateRestored": "Restored from recovery bundle {{id}}.",
   "watchdogSite": "Site",
   "watchdogSiteChoose": "Choose a site",
-  "watchdogSiteVerified": "Log of {{host}} (sites/{{directory}}, database {{database}}), checked against sites.php and Drush."
+  "watchdogSiteVerified": "Log of {{host}} (sites/{{directory}}, database {{database}}), checked against sites.php and Drush.",
+  "joomlaUpdateCoreButton": "Update Joomla core",
+  "joomlaUpdateCoreConfirm": "A recovery bundle (files and database) is written first. Then Joomla's own updater contacts the Joomla update server, downloads the new version and installs it while the site is offline. If anything fails, the engine puts the site back. A new major version is refused."
 }
