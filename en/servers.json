@@ -55,5 +55,13 @@
   "statusOffline": "Offline",
   "statusLost": "Connection lost",
   "statusAwaitingHostKey": "Waiting for host key",
-  "validationError": "Name is required. Host and username are required for remote servers."
+  "validationError": "Name is required. Host and username are required for remote servers.",
+  "incompleteTitle": "Interrupted operations on the server",
+  "incompleteUnknown": "Could not read the engine's state; what is waiting there is unknown.",
+  "incompleteRecoveredBy": "Finished by {{operation}} on its next run, or from the site's own tab.",
+  "incompleteNeedsOperator": "No operation recovers this one; it needs a person.",
+  "incompleteMarker": "Recovery marker {{name}} in {{scope}} is waiting.",
+  "incompleteUnreadable_one": "{{count}} transaction record could not be read.",
+  "incompleteUnreadable_other": "{{count}} transaction records could not be read.",
+  "incompleteRefresh": "Check again"
 }
