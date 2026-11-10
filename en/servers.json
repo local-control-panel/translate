@@ -53,5 +53,7 @@
   "runOnTag": "Run on tag: {{tag}}",
   "statusConnected": "Connected",
   "statusOffline": "Offline",
+  "statusLost": "Connection lost",
+  "statusAwaitingHostKey": "Waiting for host key",
   "validationError": "Name is required. Host and username are required for remote servers."
 }
