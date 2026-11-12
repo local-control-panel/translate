@@ -540,6 +540,7 @@
   "auditJmRewrite": "Rewrite rules (htaccess)",
   "auditJmTwoFactor": "Multi-factor authentication",
   "auditJmSuperUsersMfa": "Super users without multi-factor authentication",
+  "auditJmExtensionManifests": "Old or unsupported extensions (manifests)",
   "auditDbDatabase": "Linked database",
   "auditDbDesc": "Reads the size of every table in the database linked to this site (Database tab), read-only: the largest tables, free space that OPTIMIZE TABLE could return, and the tables that usually grow without limit for this application (sessions, logs, caches, queues). Only table names, sizes and row estimates are read; no row content.",
   "auditDbHeavyTables": "Tables that usually grow",
