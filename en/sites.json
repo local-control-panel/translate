@@ -70,6 +70,8 @@
   "auditWpPfCron": "WP-Cron backlog",
   "auditWpPfHpos": "WooCommerce order storage",
   "auditWpPfMedia": "Media library and image sizes",
+  "auditWpPfMediaOrphans": "Uploads files without a media record",
+  "auditWpPfMediaUnattached": "Media not attached to a post",
   "auditWpPfObjectCache": "Object cache",
   "auditWpPfObjectCacheConnection": "Valkey/Redis connection",
   "auditWpPfPageCache": "Page cache",
