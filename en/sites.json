@@ -963,7 +963,14 @@
   "codeBaselineReasonTooDeep": "The folders are nested too deeply.",
   "codeBaselineReasonName": "A file name could not be recorded.",
   "codeBaselineReasonScopeChanged": "The scanned scope changed since the baseline was accepted.",
+  "codeBaselineReasonSubsiteChanged": "The Drupal subsite differs from the one the baseline was accepted for.",
   "codeBaselineReasonRootChanged": "The site folder changed since the baseline was accepted.",
   "codeBaselineReasonBaselineUnreadable": "The stored baseline cannot be read.",
-  "codeBaselineReasonOther": "The check could not be completed."
+  "codeBaselineReasonOther": "The check could not be completed.",
+  "codeBaselineSubsite": "Subsite",
+  "codeBaselineSubsiteChoose": "Choose a subsite",
+  "codeBaselineSubsiteNote": "This is a Drupal multisite. The baseline covers the code of the whole installation and is kept for the subsite you choose; another subsite needs its own baseline.",
+  "codeBaselineSubsitesLoading": "Reading the subsites...",
+  "codeBaselineSubsitesUnknown": "The subsites could not be read, so no baseline action is available.",
+  "codeBaselineSubsitesTruncated": "More subsites exist than are listed."
 }
