@@ -984,5 +984,6 @@
   "codeBaselineSubsitesUnknown": "The subsites could not be read, so no baseline action is available.",
   "codeBaselineSubsitesTruncated": "More subsites exist than are listed.",
   "updateInterrupted": "Interrupted; the next attempt will roll it back.",
+  "updateInterruptedAfterProbe": "Interrupted after its health check passed; the next attempt will roll it back, so the update will not stay applied.",
   "updateInterruptedUnknown": "The engine did not report this update as interrupted, so its state is unknown."
 }
