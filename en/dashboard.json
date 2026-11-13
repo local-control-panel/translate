@@ -1,0 +1,7 @@
+{
+  "healthScoreTitle": "Health score: {{score}}/100",
+  "healthStatusCritical": "Critical",
+  "healthStatusDegraded": "Degraded",
+  "healthStatusHealthy": "Healthy",
+  "reasonRestoreDrillFailed": "Restore drill failed (-{{penalty}})"
+}
