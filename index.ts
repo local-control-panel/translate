@@ -17,6 +17,7 @@ import enCron from './en/cron.json';
 import enHealth from './en/health.json';
 import enLogs from './en/logs.json';
 import enJournal from './en/journal.json';
+import enDashboard from './en/dashboard.json';
 
 export const resources = {
   en: {
@@ -39,6 +40,7 @@ export const resources = {
     health: enHealth,
     logs: enLogs,
     journal: enJournal,
+    dashboard: enDashboard,
   },
   // Add new languages here as they're merged, e.g.:
   // fr: { common: frCommon, nav: frNav, ... },
