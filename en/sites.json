@@ -982,5 +982,7 @@
   "codeBaselineSubsiteNote": "This is a Drupal multisite. The baseline covers the code of the whole installation and is kept for the subsite you choose; another subsite needs its own baseline.",
   "codeBaselineSubsitesLoading": "Reading the subsites...",
   "codeBaselineSubsitesUnknown": "The subsites could not be read, so no baseline action is available.",
-  "codeBaselineSubsitesTruncated": "More subsites exist than are listed."
+  "codeBaselineSubsitesTruncated": "More subsites exist than are listed.",
+  "updateInterrupted": "Interrupted; the next attempt will roll it back.",
+  "updateInterruptedUnknown": "The engine did not report this update as interrupted, so its state is unknown."
 }
