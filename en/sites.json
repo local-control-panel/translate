@@ -900,6 +900,8 @@
   "cacheClearWordpressWarn": "Other sites using the same cache backend may also be affected.",
   "cacheClearDrupalDesc": "Clears and rebuilds Drupal’s caches.",
   "cacheClearDrupalWarn": "Requests may be slower while caches warm up again.",
+  "cacheClearJoomlaDesc": "Empties the Joomla cache folders (cache and administrator/cache). Nothing else on the site is touched.",
+  "cacheClearJoomlaWarn": "Requests may be slower while caches warm up again.",
   "deployRecoveryAction": "Recover deployment",
   "deployRecoveryConfirm": "Check and recover the interrupted deployment for {{domain}}? The engine will verify the active release and record the outcome without running deploy again.",
   "deployRecoveryDone": "Deployment recovery completed. Review the recorded outcome.",
