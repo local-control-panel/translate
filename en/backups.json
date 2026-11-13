@@ -176,5 +176,18 @@
   "restoreRecoveryWorking": "Checking recovery…",
   "restoreRecoveryConfirmation": "Restore the retained pre-import snapshot for {{dbType}} database \"{{database}}\" in container \"{{container}}\"?\n\nOriginal request: {{requestId}}\n\nConfirm that applications, workers and other writers remain offline and that ALL earlier import and rollback clients have stopped. This replaces the current database with the previous snapshot. The submitted dump will not be imported again.",
   "restoreRecoveryUnavailable": "Recovery is unavailable until the original interrupted restore and its retained snapshot are confirmed.",
-  "restoreRecoverySucceeded": "The previous state of {{database}} was restored. The submitted import was not repeated."
+  "restoreRecoverySucceeded": "The previous state of {{database}} was restored. The submitted import was not repeated.",
+  "restoreDrillTitle": "Last restore drill",
+  "restoreDrillScope": "Read from the restore-drill agent's log. A drill tests one backup job at a time, so this shows the newest result for each job, not for a whole site. It does not change the site's health score.",
+  "restoreDrillOk": "Passed",
+  "restoreDrillFailed": "Failed",
+  "restoreDrillUnknown": "Unknown",
+  "restoreDrillServerWide": "Server",
+  "restoreDrillDuration": "{{seconds}} s",
+  "restoreDrillDatabases": "Restored and matched: {{list}}",
+  "restoreDrillError": "Error: {{error}}",
+  "restoreDrillUnknownRun": "This result does not say that a database was restored.",
+  "restoreDrillNoLog": "Unknown: no restore drill result is recorded on this server (the restore-drill agent has not written a log).",
+  "restoreDrillUnreadable": "Unknown: the restore-drill log exists but cannot be read.",
+  "restoreDrillNoRuns": "Unknown: the restore-drill log has no readable result."
 }
