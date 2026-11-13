@@ -20,6 +20,8 @@
   "actionNamespaceSystem": "System",
   "actionNamespaceTool": "Tools",
   "actionNamespaceWordpress": "WordPress",
+  "cachedNotice": "Showing the last entries this app read from the server, as of {{time}}. The server cannot be reached right now, so newer changes are not shown.",
+  "cachedTitle": "Not current",
   "colAction": "Action",
   "colActor": "Who",
   "colEnvironment": "Environment",
