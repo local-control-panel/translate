@@ -55,6 +55,8 @@
   "statusOffline": "Offline",
   "statusLost": "Connection lost",
   "statusAwaitingHostKey": "Waiting for host key",
+  "statusUnresponsive": "Not answering",
+  "statusUnresponsiveSince": "No answer; last success {{seconds}} s ago",
   "validationError": "Name is required. Host and username are required for remote servers.",
   "incompleteTitle": "Interrupted operations on the server",
   "incompleteUnknown": "Could not read the engine's state; what is waiting there is unknown.",
