@@ -65,5 +65,22 @@
   "incompleteMarker": "Recovery marker {{name}} in {{scope}} is waiting.",
   "incompleteUnreadable_one": "{{count}} transaction record could not be read.",
   "incompleteUnreadable_other": "{{count}} transaction records could not be read.",
-  "incompleteRefresh": "Check again"
+  "incompleteRefresh": "Check again",
+  "resourceOpsTitle": "Unresolved operations",
+  "resourceOpsHint": "Showing up to 200 recent operations. Check the remote status before taking further action; checking never repeats the operation.",
+  "resourceOpsReadFailed": "Unable to read operation history.",
+  "resourceOpsCheckFailed": "Unable to confirm the remote status; the outcome remains unknown.",
+  "resourceOpsStatus_active": "running",
+  "resourceOpsStatus_interrupted": "interrupted, outcome not confirmed",
+  "resourceOpsStatus_recovery_required": "interrupted, recovery required",
+  "resourceOpsCheck": "Check status",
+  "resourceOpsRecover": "Recover",
+  "resourceOpsRecovering": "Recovering…",
+  "resourceOpsRecoverHint": "Recovery restores the content (and database, when one was changed) saved before the interrupted run. It runs only after you confirm.",
+  "resourceOpsManualHint": "Recovery may require manual action. Checking status does not repeat the operation.",
+  "resourceOpsUnavailable": "No recovery is available for this operation: {{reason}}",
+  "resourceOpsConfirm": "Recover {{operation}} for {{subject}} (request {{requestId}})? Confirm that the site is offline and that every client of the previous database is stopped. The saved state is restored and the interrupted run's partial changes are removed.",
+  "resourceOpsConfirmDatabase": " The database in container {{container}} is restored from its snapshot as well.",
+  "resourceOpsRecovered": "Recovery finished for {{subject}}.",
+  "resourceOpsRecoveryUnknown": "Recovery did not finish; the outcome is unknown. Check the status before trying again."
 }
